@@ -1,4 +1,4 @@
-let kendaraan = "becak";
+let kendaraan = "mobil";
 let durasi = 3;
 let tarif; 
 
