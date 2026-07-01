@@ -1,16 +1,16 @@
 let kata = "programming";
 let i = 0;
 let ditemukan = false;
-let huruf = "a";
+let huruf = "m";
 
-while (i < kata.length && !ditemukan) {
+while (!ditemukan && i < kata.length) {
     if (kata[i] === huruf) {
-        console.log(`Huruf '${huruf}' ditemukan di posisi: ${i}`)
+        console.log(`Huruf '${huruf}' ditemukan di posisi: ${i}`);
         ditemukan = true;
-    } 
-    else {
-        console.log(`Huruf ${huruf} tidak ditemukan.`)
-        //break;
+        break;
     }
-    i++
+    i++;
+}
+if (!ditemukan) {
+    console.log(`Huruf '${huruf}' tidak ditemukan.`)
 }
