@@ -1,6 +1,6 @@
 let waktu = 10;
 let tombolDitekan = false;
-let tombol;
+let tombol = 7;
 
 while (!tombolDitekan && waktu > 0) {
     console.log(`Countdown: ${waktu}`);
